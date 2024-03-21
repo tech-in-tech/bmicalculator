@@ -1,0 +1,183 @@
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-div{
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bmi-div{
+  align-items: center;
+  gap: 20px;
+  padding: 30px 20px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-width: 300px;
+  width: 100%;
+  height: 70vh;
+
+} */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 40px; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+.result p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  /* border: 1px solid red; */
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  margin: 0% auto;
+}
+
+input:focus{
+  outline: none;
+  border: 2px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+/* <!-- <body>
+  <!-- !main div -->
+  <div class="main-div">
+
+
+    <!-- !BMI div -->
+    <div class="bmi-div">
+      <h1 class="main-heading">BMI Calculator</h1>
+
+
+      <!-- !age div -->
+      <div class="div">
+        <p>Age</p>
+        <input type="text">
+      </div>
+
+
+      <!-- !gender div -->
+      <div class="gender-div">
+
+        <!-- !male -->
+        <div class="male">
+          <input type="checkbox">
+          <p>Male</p>
+        </div>
+
+        <!-- !female -->
+        <div class="female">
+          <input type="checkbox">
+          <p>Female</p>
+        </div>
+      </div>
+
+      <!-- !height and weight div -->
+      <div class="height-weight-div">
+
+        <!-- !height-div -->
+        <div class="height">
+          <p>Height(cm)</p>
+          <input type="text">
+        </div>
+
+        <!-- !weightdiv -->
+        <div class="weight">
+          <p>Weight(kg)</p>
+          <input type="text">
+        </div>
+      </div>
+<!--  -->
+      <!-- !Calculate button -->
+      <div class="button">
+        <button>Calculate BMI</button>
+      </div>
+
+      <!--! your BMI is  -->
+      <div class="bmi-heading">
+        <h3>Your BMI is</h3>
+      </div>
+
+      <!-- ! -->
+      <div class="actual-BMI">
+        <h1>00.00</h1>
+      </div>
+    </div>
+  </div>
+</body> --> */
