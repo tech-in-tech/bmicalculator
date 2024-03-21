@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
   if(weight==='' || weight<0 || isNaN(weight)){
     result.innerText = "error";
   }
-  if(height==='' || height<50 || height> 300 || isNaN(height)){
+  if(height==='' || height<20 || height> 300 || isNaN(height)){
     result.innerText = "error";
   }
 
